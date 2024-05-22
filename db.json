@@ -1,0 +1,225 @@
+{
+  "user": [
+    {
+      "id": "df0a",
+      "proofId": "ffd44eaa-2b2c-461c-8f85-85087599b485",
+      "email": "krishna@abc.com",
+      "username": "krishna",
+      "password": "krishna@123"
+    },
+    {
+      "id": "324e",
+      "proofId": "92d609d2-4975-405a-8c1b-1fdebf6212b7",
+      "email": "shrey@mishra.com",
+      "username": "Shreyansh Mishra",
+      "password": "Test@123"
+    },
+    {
+      "id": "659f",
+      "proofId": "23685340-cbdb-48ef-8a91-54931859f8d3",
+      "email": "amit@mishra.com",
+      "username": "amit",
+      "password": "amit@123"
+    },
+    {
+      "id": "d8dc",
+      "proofId": "ec53275c-7b69-4d65-8eb9-2c5593819a2c",
+      "email": "Ajay@123.com",
+      "username": "Ajay",
+      "password": "Ajay@123"
+    }
+  ],
+  "car": [
+    {
+      "id": "1",
+      "carModel": "Toyota Camry",
+      "registrationNumber": "ABC123",
+      "carAvailability": "Available",
+      "brand": "Toyota",
+      "pricePerHour": "100",
+      "thumbnail": "toyota-camry.jpg"
+    },
+    {
+      "id": "2",
+      "carModel": "Honda Civic Pro",
+      "registrationNumber": "DEF456",
+      "carAvailability": "Not Available",
+      "brand": "Honda",
+      "pricePerHour": "120",
+      "thumbnail": "honda-civic.jpg"
+    },
+    {
+      "id": "3",
+      "carModel": "Ford Mustang",
+      "registrationNumber": "GHI789",
+      "carAvailability": "Available",
+      "brand": "Ford",
+      "pricePerHour": "150",
+      "thumbnail": "ford-mustang.jpg"
+    },
+    {
+      "id": "4",
+      "carModel": "Chevrolet Camaro",
+      "registrationNumber": "JKL012",
+      "carAvailability": "Available",
+      "brand": "Chevrolet",
+      "pricePerHour": "180",
+      "thumbnail": "blue-car.jpg"
+    },
+    {
+      "id": "5",
+      "carModel": "BMW 3 Series",
+      "registrationNumber": "MNO345",
+      "carAvailability": "Available",
+      "brand": "BMW",
+      "pricePerHour": "200",
+      "thumbnail": "bg--10.jpg"
+    }
+  ],
+  "reservation": [
+    {
+      "id": "9c1a",
+      "bookingId": "2ec36489-2915-45eb-b113-d14290674f1e",
+      "user": "ffd44eaa-2b2c-461c-8f85-85087599b485",
+      "car": "1",
+      "reservationDate": "2024-05-21",
+      "pickupDate": "2024-05-22",
+      "returnDate": "2024-05-25",
+      "numOfTravellers": "3",
+      "status": "success",
+      "total": 400
+    },
+    {
+      "id": "f608",
+      "bookingId": "adc7e492-1ea6-44db-b34a-eafd6d64f7ab",
+      "user": "ffd44eaa-2b2c-461c-8f85-85087599b485",
+      "car": "5",
+      "reservationDate": "2024-05-21",
+      "pickupDate": "2024-05-27",
+      "returnDate": "2024-05-29",
+      "numOfTravellers": "5",
+      "status": "pending",
+      "total": 600
+    },
+    {
+      "id": "8407",
+      "bookingId": "24b6e20b-80d0-4f33-b808-d36c0d74a3b8",
+      "user": "ffd44eaa-2b2c-461c-8f85-85087599b485",
+      "car": "2",
+      "reservationDate": "2024-05-21",
+      "pickupDate": "2024-05-23",
+      "returnDate": "2024-05-24",
+      "numOfTravellers": "4",
+      "status": "cancelled",
+      "total": 240
+    },
+    {
+      "id": "a0c6",
+      "bookingId": "27005fdc-6f87-481a-a9cd-97414e8096e8",
+      "user": "ffd44eaa-2b2c-461c-8f85-85087599b485",
+      "car": "3",
+      "reservationDate": "2024-04-21",
+      "pickupDate": "2024-04-22",
+      "returnDate": "2024-04-25",
+      "numOfTravellers": "4",
+      "status": "success",
+      "total": 600
+    },
+    {
+      "id": "a2c9",
+      "bookingId": "0e78d666-76e0-4894-a458-5febd829af30",
+      "user": "ffd44eaa-2b2c-461c-8f85-85087599b485",
+      "car": "4",
+      "reservationDate": "2024-05-21",
+      "pickupDate": "2024-05-27",
+      "returnDate": "2024-05-30",
+      "numOfTravellers": "5",
+      "status": "cancelled",
+      "total": 720
+    },
+    {
+      "id": "81b5",
+      "bookingId": "35f3de39-9dea-4e4e-8c33-6e5e2b85370c",
+      "user": "ffd44eaa-2b2c-461c-8f85-85087599b485",
+      "car": "1",
+      "reservationDate": "2024-05-21",
+      "pickupDate": "2024-06-01",
+      "returnDate": "2024-06-06",
+      "numOfTravellers": "3",
+      "status": "cancelled",
+      "total": 600
+    },
+    {
+      "id": "6ad1",
+      "bookingId": "85c027b2-40d4-44a6-bbae-e0ab6767d39d",
+      "user": "ffd44eaa-2b2c-461c-8f85-85087599b485",
+      "car": "5",
+      "reservationDate": "2024-03-21",
+      "pickupDate": "2024-03-30",
+      "returnDate": "2024-04-06",
+      "numOfTravellers": "5",
+      "status": "completed",
+      "total": 1600
+    },
+    {
+      "id": "e65a",
+      "bookingId": "18cb24b3-8b0d-453c-b257-da2979890abc",
+      "user": "ffd44eaa-2b2c-461c-8f85-85087599b485",
+      "car": "1",
+      "reservationDate": "2024-05-22",
+      "pickupDate": "2024-05-22",
+      "returnDate": "2024-05-24",
+      "numOfTravellers": "3",
+      "status": "success",
+      "total": 300
+    },
+    {
+      "id": "4bb0",
+      "bookingId": "ee1f1a73-0726-4161-8360-20f0ef0f1671",
+      "user": "ffd44eaa-2b2c-461c-8f85-85087599b485",
+      "car": "5",
+      "reservationDate": "2024-05-22",
+      "pickupDate": "2024-05-23",
+      "returnDate": "2024-05-24",
+      "numOfTravellers": "2",
+      "status": "success",
+      "total": 400
+    },
+    {
+      "id": "8ec5",
+      "bookingId": "dafdbe5d-99e4-4a88-aed3-4932ecc23447",
+      "user": "ffd44eaa-2b2c-461c-8f85-85087599b485",
+      "car": "1",
+      "reservationDate": "2024-05-22",
+      "pickupDate": "2024-05-23",
+      "returnDate": "2024-05-24",
+      "numOfTravellers": "6",
+      "status": "success",
+      "total": 200
+    },
+    {
+      "id": "0eef",
+      "bookingId": "b8dcea32-76c1-4809-aa04-907e8fabba0a",
+      "user": "23685340-cbdb-48ef-8a91-54931859f8d3",
+      "car": "3",
+      "reservationDate": "2024-05-22",
+      "pickupDate": "2024-05-22",
+      "returnDate": "2024-05-23",
+      "numOfTravellers": "3",
+      "status": "success",
+      "total": 300
+    },
+    {
+      "id": "cc15",
+      "bookingId": "3aa9eeed-06cf-4a5e-a204-2f8838406db6",
+      "user": "ec53275c-7b69-4d65-8eb9-2c5593819a2c",
+      "car": "3",
+      "reservationDate": "2024-05-22",
+      "pickupDate": "2024-05-23",
+      "returnDate": "2024-05-24",
+      "numOfTravellers": "3",
+      "status": "cancelled",
+      "total": 300
+    }
+  ]
+}
